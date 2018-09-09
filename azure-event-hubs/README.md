@@ -33,3 +33,8 @@ az eventhubs namespace authorization-rule keys list --resource-group ming-test -
 ```
 
 Then follow the tutorial in the link to simulate the simple send and receive processor in JAVA
+
+### Clean up
+```
+az group delete --resource-group ming-test
+```
